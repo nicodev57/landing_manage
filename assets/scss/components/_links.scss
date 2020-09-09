@@ -1,0 +1,24 @@
+/* ---- Link ----*/
+
+.link_ul {
+  text-decoration: none;
+  color: $azul;
+  transition: .3s
+}
+
+.link_ul:hover {
+  color: $naranja;
+  transform: ease-in-out;
+}
+
+.ul__links {
+  text-decoration: none;
+  color: white;
+  transition: .5s;
+}
+
+.ul__links:hover {
+  color: $naranja;
+  transform: ease-in-out;
+}
+

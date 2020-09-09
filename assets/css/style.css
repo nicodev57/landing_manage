@@ -1,0 +1,367 @@
+/* ---- VARIABLES ----*/
+/*--- layout ---*/
+/*--- Colores ---*/
+/* --- typo --- */
+/* ---- MIXINS ----*/
+/* ---- BODY ----*/
+body {
+  font-family: "Be Vietnam", sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+/*---- Main ---- */
+.main {
+  display: flex;
+  width: 100vw;
+  height: 50px;
+  justify-content: space-around;
+  padding-top: 55px;
+  align-items: center;
+}
+
+/* ---- HEADER ----*/
+.header {
+  display: flex;
+  margin-top: 130px;
+}
+
+/* ---- FOOTER ----*/
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1d1e25;
+  height: 250px;
+}
+
+/* ---- SECTION ----*/
+.principal {
+  background-image: url(/assets/images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-position-x: 830px;
+  background-position-y: -137px;
+  height: 100vh;
+}
+
+.different {
+  display: flex;
+  height: 850px;
+  margin-top: 80px;
+}
+
+.comments {
+  text-align: center;
+}
+
+.simplify {
+  height: 230px;
+  background-color: #f25f3a;
+}
+
+/* ---- DIV ----*/
+.header__info {
+  flex: 1;
+  margin-left: 137px;
+}
+
+.header__image {
+  flex: 1;
+}
+
+.different__info {
+  flex: 1;
+  margin: 0 auto;
+  background-image: url(/assets/images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-position-x: -500px;
+  background-position-y: 300px;
+}
+
+.info__d {
+  width: 420px;
+  margin: 0 auto;
+  margin-left: 137px;
+}
+
+.different__points {
+  flex: 1;
+  padding-left: 100px;
+}
+
+.points {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.points__number {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #f25f3a;
+  height: 40px;
+  width: 65px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.comments__cards {
+  display: flex;
+}
+
+.cards {
+  background-color: #fafafa;
+  margin: 0 20px;
+  height: 250px;
+  margin-top: 120px;
+}
+
+.simplify__div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.simplify__text {
+  flex: 1.5;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.simplify__background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url(/assets/images/bg-tablet-pattern.svg);
+  background-position-x: 30px;
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+}
+
+.simplify__button {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__media {
+  width: 170px;
+  text-align: center;
+}
+
+.media_icons {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+}
+
+.rights {
+  width: 270px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.rights__input {
+  display: flex;
+}
+
+.rights__rs {
+  margin-top: 50px;
+  width: 100%;
+  color: white;
+  font-size: 0.7em;
+}
+
+/* ---- NAV ----*/
+.nav {
+  width: 500px;
+}
+
+/* ---- Link ----*/
+.link_ul {
+  text-decoration: none;
+  color: #242d52;
+  transition: 0.3s;
+}
+
+.link_ul:hover {
+  color: #f25f3a;
+  transform: ease-in-out;
+}
+
+.ul__links {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.ul__links:hover {
+  color: #f25f3a;
+  transform: ease-in-out;
+}
+
+/* ---- List ----*/
+/*ul*/
+.nav__ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+/*li*/
+.ul__link {
+  list-style: none;
+}
+
+/* ---- TITLE ----*/
+.header__title {
+  width: 530px;
+  margin: 0 auto;
+  font-size: 4em;
+  margin-left: 0;
+}
+
+.different__title {
+  font-size: 3em;
+  margin-top: 0;
+}
+
+.points__title {
+  margin-top: 0;
+}
+
+.comments__title {
+  font-size: 3em;
+  margin: -250px 0 50px 0;
+}
+
+/* ---- PGRAPHS ----*/
+.pgraph {
+  color: #9095a7;
+}
+
+.header__pgraph {
+  width: 334px;
+  margin: 0 auto;
+  margin-left: 0;
+  margin-top: 40px;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.different__pgraph {
+  height: 100px;
+  width: 323px;
+}
+
+.pgraph__number {
+  margin: 0;
+  color: white;
+}
+
+.points__pgraph {
+  width: 438px;
+  text-align: justify;
+}
+
+.card__pgraph {
+  padding: 0 30px;
+}
+
+.simplify__pgraph {
+  font-size: 2em;
+  width: 400px;
+  color: white;
+  margin: 0 auto;
+  font-weight: 700;
+}
+
+/* ---- Button ----*/
+.button {
+  padding: 12px 30px;
+  background-color: #f25f3a;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  transition: 0.5s;
+  box-shadow: 0px 7px 5px -3px #f25f3a;
+}
+
+.button:hover {
+  background-color: #242d52;
+  transform: ease-in-out;
+  box-shadow: 0px 7px 5px -3px #242d52;
+  cursor: pointer;
+}
+
+.header__button {
+  margin: 0 auto;
+  margin-left: 0;
+  box-shadow: 0px 7px 5px -3px #f25f3a;
+}
+
+.cards__button {
+  margin: 50px 0 200px 0;
+}
+
+.smf__button {
+  background-color: white;
+  color: #f25f3a;
+  transition: 0.5s;
+  font-weight: 700;
+  box-shadow: none;
+}
+
+.smf__button:hover {
+  background-color: #242d52;
+  box-shadow: none;
+  color: white;
+  transform: ease-in-out;
+}
+
+.footer__button, .footer__button:hover {
+  box-shadow: none;
+}
+
+/* ---- Form ----*/
+/*ul*/
+.footer__ul {
+  list-style: none;
+}
+
+.ul__item {
+  color: white;
+  margin-bottom: 10px;
+}
+
+/*inputs*/
+.input_rights {
+  border-radius: 50px;
+  height: 100%;
+  margin-right: 10px;
+  font-size: 0.7em;
+  padding: 0 20px;
+}
+
+.input_rights:focus {
+  outline-style: solid;
+  outline-width: 3px;
+  outline-color: #f25f3a;
+}
+
+/* ---- Image ----*/
+.crd__image {
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+}

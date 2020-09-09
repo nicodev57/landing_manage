@@ -1,0 +1,54 @@
+/* ---- Button ----*/
+
+.button {
+  padding: 12px 30px;
+  background-color: $naranja;
+  color: white; 
+  border: none;
+  border-radius: 50px;
+  transition: .5s;
+  -webkit-box-shadow: 0px 7px 5px -3px $naranja;
+  -moz-box-shadow: 0px 7px 5px -3px $naranja;
+  box-shadow: 0px 7px 5px -3px $naranja;
+}
+
+.button:hover {
+  background-color: $azul;
+  transform: ease-in-out;
+  -webkit-box-shadow: 0px 7px 5px -3px $azul;
+  -moz-box-shadow: 0px 7px 5px -3px $azul;
+  box-shadow: 0px 7px 5px -3px $azul;
+  cursor: pointer;
+}
+
+.header__button {
+  margin: 0 auto;
+  margin-left: 0;
+  -webkit-box-shadow: 0px 7px 5px -3px $naranja;
+  -moz-box-shadow: 0px 7px 5px -3px $naranja;
+  box-shadow: 0px 7px 5px -3px $naranja;
+}
+
+.cards__button {
+  margin: 50px 0 200px 0;
+}
+
+.smf__button {
+  background-color: white;
+  color: $naranja;
+  transition: .5s;
+  font-weight: $pesoMayor;
+  box-shadow: none;
+}
+
+.smf__button:hover {
+  background-color: $azul;
+  box-shadow: none;
+  color: white;
+  transform: ease-in-out;
+}
+
+.footer__button, .footer__button:hover {
+  box-shadow: none;
+}
+

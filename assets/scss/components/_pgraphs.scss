@@ -1,0 +1,43 @@
+/* ---- PGRAPHS ----*/
+
+
+.pgraph {
+  color: $grisOscuro;
+}
+
+.header__pgraph {
+  width: 334px;
+  margin: 0 auto;
+  margin-left: 0;
+  margin-top: 40px;
+  font-size: $size;
+  margin-bottom: 50px;
+}
+
+.different__pgraph {
+  height: 100px;
+  width: 323px;
+}
+
+.pgraph__number {
+  margin: 0;
+  color: white;
+}
+
+.points__pgraph {
+  width: 438px;
+  text-align: justify;
+}
+
+.card__pgraph {
+  padding: 0 30px;
+}
+
+.simplify__pgraph {
+  font-size: 2em;
+  width: 400px;
+  color: white;
+  margin: 0 auto;
+  font-weight: $pesoMayor;
+}
+

@@ -1,0 +1,24 @@
+/* ---- SECTION ----*/
+
+.principal {
+  background-image: url(/assets/images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-position-x: 830px;
+  background-position-y: -137px;
+  height: 100vh;
+} 
+
+.different {
+  display: flex;
+  height: 850px;
+  margin-top: 80px;
+}
+
+.comments {
+  text-align: center;
+}
+
+.simplify {
+  height: 230px;
+  background-color: $naranja;
+}

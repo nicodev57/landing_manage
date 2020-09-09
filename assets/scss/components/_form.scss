@@ -1,0 +1,28 @@
+/* ---- Form ----*/
+
+/*ul*/
+
+.footer__ul {
+  list-style: none;
+}
+
+.ul__item {
+  color: white;
+  margin-bottom: 10px;
+}
+
+/*inputs*/
+
+.input_rights {
+  border-radius: 50px;
+  height: 100%;
+  margin-right: 10px;
+  font-size: .7em;
+  padding: 0 20px;
+}
+
+.input_rights:focus {
+  outline-style: solid;
+  outline-width: 3px;
+  outline-color: $naranja;
+}
